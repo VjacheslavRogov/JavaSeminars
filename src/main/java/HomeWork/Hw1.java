@@ -9,6 +9,11 @@ public class Hw1 {
         System.out.println(reverseWords(s));
     }
 
+    /**
+     * @param s исходная строка
+     * @return Возвращает строку слов в обратном порядке, объединенных одним пробелом.
+     * @apiNote Reverse Words in a String
+     */
     public static String reverseWords(String s) {
         String[] str = s.trim().split(" ");
         String out = "";
