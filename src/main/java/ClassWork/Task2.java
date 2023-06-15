@@ -23,8 +23,7 @@ public class Task2 {
     /**
      * @param a previous number.
      * @param b next number.
-     * @return is previous number less than 0 and number
-     * is greater or equal 0
+     * @return
      * @apiNote Дана последовательность N целых чисел. Найти количество положительных чисел, после которых следует отрицательное число.
      */
     private static boolean isNumberPositive(int a, int b) {

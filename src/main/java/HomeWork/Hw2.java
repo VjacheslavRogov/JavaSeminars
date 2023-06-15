@@ -6,19 +6,27 @@ public class Hw2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        int count = 0;
+        int sum = 0;
         int num1 = sc.nextInt();
 
-        for (int i = 1; i < n; i++) {
+        while (n > 1){
             int num = sc.nextInt();
-            if (isNumberPositive(num1, num)) {
-                count++;
+            if (isNumberPositive(num1, num)){
+                sum += num1;
             }
             num1 = num;
+            n--;
         }
-        System.out.println("count = " + count);
+
+        System.out.println(sum);
     }
 
+    /**
+     * @apiNote Дана последовательность целых чисел, оканчивающаяся нулем. Найти сумму положительных чисел, после которых следует отрицательное число.
+     * @param a Предыдущее число.
+     * @param b Следующее число.
+     * @return Сумма положительных чисел после которых идёт отрицательное число.
+     */
     private static boolean isNumberPositive(int a, int b) {
         return a >= 0 && b < 0;
     }
