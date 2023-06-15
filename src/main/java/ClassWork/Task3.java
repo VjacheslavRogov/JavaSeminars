@@ -7,9 +7,17 @@ public class Task3 {
         //Дана строка. Поменять местами её половины.
         Scanner sc = new Scanner(System.in);
         String stringNew = sc.nextLine();
-        String subStr1 = stringNew.substring(0, stringNew.length()/2);
-        String subStr2 = stringNew.substring(stringNew.length()/2);
-        String res = subStr2+subStr1;
-        System.out.println(res);
+        System.out.println("zadanie3(sringNew) = " + zadanie3(stringNew));
+    }
+
+    /**
+     * @param stringNew исходная строка
+     * @return результирующая строка
+     * @apiNote Дана строка. Поменять местами её половины.
+     */
+    private static String zadanie3(String stringNew) {
+        String subStr1 = stringNew.substring(0, stringNew.length() / 2);
+        String subStr2 = stringNew.substring(stringNew.length() / 2);
+        return subStr2 + subStr1;
     }
 }
