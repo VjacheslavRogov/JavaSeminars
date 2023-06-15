@@ -1,4 +1,4 @@
 package ClassWork;
 
-public class Ex2 {
+public class Task2 {
 }
