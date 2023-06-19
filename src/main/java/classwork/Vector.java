@@ -28,7 +28,7 @@ public class Vector {
     /**
      * @return длинну вектора
      */
-    public double VectorLength() {
+    public double vectorLength() {
         return sqrt(x * x + y * y + z * z);
     }
 
@@ -48,5 +48,12 @@ public class Vector {
                 z * vector2.x - x * vector2.z,
                 x * vector2.y - y * vector2.x
         );
+    }
+
+    /**
+     * @return угол между векторами (или косинус угла)
+     */
+    public double cosVector(Vector vector2) {
+        return scalar(vector2) / (vectorLength() * vector2.vectorLength());
     }
 }
