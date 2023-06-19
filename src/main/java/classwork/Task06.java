@@ -1,4 +1,4 @@
-package ClassWork;
+package classwork;
 
 public class Task06 {
     public static void main(String[] args) {
