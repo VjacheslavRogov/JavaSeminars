@@ -1,6 +1,6 @@
 package HomeWork;
 
-public class Hw5 {
+public class HwS2_T2 {
     public static void main(String[] args) {
 
     }
