@@ -2,7 +2,7 @@ package ClassWork;
 
 import java.util.Scanner;
 
-public class Task3 {
+public class Task03 {
     public static void main(String[] args) {
         //Дана строка. Поменять местами её половины.
         Scanner sc = new Scanner(System.in);
