@@ -5,8 +5,6 @@ import java.util.List;
 import java.util.Scanner;
 
 public class HwS3_T2 {
-    // Сведения о товаре состоят из наименования, страны-производителя, веса, цены, сорта.
-    // Получить наименования товаров заданного сорта с наименьшей ценой.
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String variety = sc.nextLine();

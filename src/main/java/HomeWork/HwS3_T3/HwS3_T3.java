@@ -4,11 +4,8 @@ import HomeWork.HwS3_T2.Product2;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 
 public class HwS3_T3 {
-    //Сведения о книге состоят из названия, фамилии автора, цены, года издания и количества страниц.
-    // Найти названия книг, в которых простое количество страниц, фамилия автора содержит «А» и год издания после 2010 г, включительно.
     public static void main(String[] args) {
         List<Books> books = createList();
         searchBooks(books);
