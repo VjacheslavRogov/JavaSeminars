@@ -1,14 +1,16 @@
 package classwork;
 
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.HashSet;
 import java.util.List;
 
 public class Task13 {
     public static void main(String[] args) {
         Cube cube1 = new Cube(3, "красный", "деревянный");
         Cube cube2 = new Cube(4, "желтый", "металлический");
-        Cube cube3 = new Cube(5, "зелёный", "металлический");
-        Cube cube4 = new Cube(10, "желтый", "стальной");
+        Cube cube3 = new Cube(4, "желтый", "металлический");
+        Cube cube4 = new Cube(4, "желтый", "металлический");
         List<Cube> cubeList = new ArrayList<>();
         cubeList.add(cube1);
         cubeList.add(cube2);
@@ -31,5 +33,10 @@ public class Task13 {
         System.out.println("k = " + k);
         System.out.println("sumVolume = " + sumVolume);
         System.out.println("kWood = " + kWood);
+        System.out.println("unicCollection(cubeList) = " + unicCollection(cubeList));
+    }
+
+    private static Collection unicCollection(List<Cube> cubeList) {
+        return new HashSet(cubeList);
     }
 }
