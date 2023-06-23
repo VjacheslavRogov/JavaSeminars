@@ -1,4 +1,4 @@
-package HomeWork;
+package HomeWork.HwS3_T2;
 
 public class HwS3_T2 {
     //Сведения о товаре состоят из наименования, страны-производителя, веса, цены, сорта.

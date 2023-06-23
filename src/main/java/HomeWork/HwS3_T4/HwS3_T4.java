@@ -1,4 +1,4 @@
-package HomeWork;
+package HomeWork.HwS3_T4;
 
 public class HwS3_T4 {
     //Задан целочисленный список ArrayList.

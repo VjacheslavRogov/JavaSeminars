@@ -1,4 +1,4 @@
-package HomeWork;
+package HomeWork.HwS3_T3;
 
 public class HwS3_T3 {
     //Сведения о книге состоят из названия, фамилии автора, цены, года издания и количества страниц.
