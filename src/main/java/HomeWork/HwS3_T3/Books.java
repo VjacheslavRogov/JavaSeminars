@@ -1,16 +1,16 @@
-package HomeWork.HwS3_T2;
+package HomeWork.HwS3_T3;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
-@AllArgsConstructor
 @NoArgsConstructor
-public class ItemS3T2 {
+@AllArgsConstructor
+public class Books {
     private String name;
-    private String country;
-    private Integer weight;
+    private String surname;
     private Integer price;
-    private String variety;
+    private Integer year;
+    private Integer pageCount;
 }

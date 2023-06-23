@@ -1,16 +1,16 @@
-package HomeWork.HwS3_T1;
+package HomeWork.HwS3_T2;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.util.List;
-
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class ItemS3T1 {
+public class Product2 {
     private String name;
+    private String country;
+    private Integer weight;
     private Integer price;
     private String variety;
 }
