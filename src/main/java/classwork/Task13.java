@@ -26,7 +26,7 @@ public class Task13 {
                 k++;
                 sumVolume += cube.volumeCube();
             }
-            if (cube.getMaterial().equals("деревянный") && cube.getSize() == 3){
+            if (cube.getMaterial().equals("деревянный") && cube.getSize() == 3) {
                 kWood++;
             }
         }

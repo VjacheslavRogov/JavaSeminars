@@ -9,9 +9,9 @@ public class HwS1_T2 {
         int sum = 0;
         int num1 = sc.nextInt();
 
-        while (n > 1){
+        while (n > 1) {
             int num = sc.nextInt();
-            if (isNumberPositive(num1, num)){
+            if (isNumberPositive(num1, num)) {
                 sum += num1;
             }
             num1 = num;
@@ -22,10 +22,10 @@ public class HwS1_T2 {
     }
 
     /**
-     * @apiNote Дана последовательность целых чисел, оканчивающаяся нулем. Найти сумму положительных чисел, после которых следует отрицательное число.
      * @param a Предыдущее число.
      * @param b Следующее число.
      * @return Сумма положительных чисел после которых идёт отрицательное число.
+     * @apiNote Дана последовательность целых чисел, оканчивающаяся нулем. Найти сумму положительных чисел, после которых следует отрицательное число.
      */
     private static boolean isNumberPositive(int a, int b) {
         return a >= 0 && b < 0;

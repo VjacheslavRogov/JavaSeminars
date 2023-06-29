@@ -1,7 +1,5 @@
 package HomeWork.HwS3_T3;
 
-import HomeWork.HwS3_T2.Product2;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -12,15 +10,15 @@ public class HwS3_T3 {
     }
 
     /**
-     * @apiNote Поиск названий книг, в которых простое количество страниц, фамилия автора содержит «А» и год издания после 2010 г, включительно.
      * @param books обрабатываемый массив
+     * @apiNote Поиск названий книг, в которых простое количество страниц, фамилия автора содержит «А» и год издания после 2010 г, включительно.
      */
     private static void searchBooks(List<Books> books) {
         List<String> names = new ArrayList<>();
         for (int i = 0; i < books.size(); i++) {
-            if (checkSimple(books.get(i).getPageCount())){
-                if (books.get(i).getSurname().toLowerCase().contains("а")){
-                    if (books.get(i).getYear() >= 2010){
+            if (checkSimple(books.get(i).getPageCount())) {
+                if (books.get(i).getSurname().toLowerCase().contains("а")) {
+                    if (books.get(i).getYear() >= 2010) {
                         names.add(books.get(i).getName());
                     }
                 }

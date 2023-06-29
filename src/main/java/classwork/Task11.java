@@ -19,11 +19,11 @@ public class Task11 {
     }
 
     /**
-     * @apiNote Найти страны, которые экспортируют данный товар и общий объём его экспорта
      * @param sumVolume
      * @param countryList
      * @param itemList
      * @param searchName
+     * @apiNote Найти страны, которые экспортируют данный товар и общий объём его экспорта
      */
     private static void zadanie1(Integer sumVolume, List<String> countryList, List<Item> itemList, String searchName) {
         for (int i = 0; i < itemList.size(); i++) {
@@ -37,9 +37,9 @@ public class Task11 {
     }
 
     /**
-     * @apiNote формирование ArrayList
      * @param n
      * @return
+     * @apiNote формирование ArrayList
      */
     private static ArrayList<Item> createList(int n) {
         ArrayList<Item> resultList = new ArrayList<>();
